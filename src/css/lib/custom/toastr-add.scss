@@ -1,0 +1,28 @@
+@import "../../partials/base";
+
+.toast-success {
+	background-color: $success-color !important;
+}
+
+.toast-error {
+	background-color: $error-color !important;
+}
+
+.toast-info {
+	background-color: $primary-color !important;
+}
+
+.toast-warning {
+	background-color: $sunglow !important;
+}
+
+#toast-container > div {
+	border-radius: 2px;
+	box-shadow: 0 0 0px #999999;
+	opacity: 1;
+}
+
+#toast-container > :hover
+{
+	box-shadow: 0 0 0px #000000;
+}
